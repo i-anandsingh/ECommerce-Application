@@ -1,4 +1,4 @@
-package com.funApp.dbFetcher;
+package com.org.dbFetcher;
 
 import org.springframework.stereotype.Component;
 

@@ -1,7 +1,7 @@
-package com.funApp.generator;
+package com.org.generator;
 
 
-import com.funApp.dbFetcher.RegistrationIdFetcher;
+import com.org.dbFetcher.RegistrationIdFetcher;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

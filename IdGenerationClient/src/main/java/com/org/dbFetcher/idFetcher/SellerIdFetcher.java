@@ -1,6 +1,6 @@
-package com.funApp.dbFetcher.idFetcher;
+package com.org.dbFetcher.idFetcher;
 
-import com.funApp.entity.SellerRegistrationEntity;
+import com.org.entity.SellerRegistrationEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

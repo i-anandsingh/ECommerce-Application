@@ -1,8 +1,8 @@
-package com.funApp.dbFetcher.impl;
+package com.org.dbFetcher.impl;
 
-import com.funApp.dbFetcher.idFetcher.SellerIdFetcher;
-import com.funApp.entity.SellerRegistrationEntity;
-import com.funApp.dbFetcher.RegistrationIdFetcher;
+import com.org.dbFetcher.idFetcher.SellerIdFetcher;
+import com.org.entity.SellerRegistrationEntity;
+import com.org.dbFetcher.RegistrationIdFetcher;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
