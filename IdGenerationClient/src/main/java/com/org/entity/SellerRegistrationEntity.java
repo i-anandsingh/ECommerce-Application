@@ -10,8 +10,7 @@ import java.util.Date;
 
 @Getter
 @Setter
-@Entity
-@Table(name = "seller_details_table")
+@Entity(name = "seller_details_table")
 public class SellerRegistrationEntity {
     @Id
     @Column(nullable = false)
