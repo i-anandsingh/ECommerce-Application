@@ -1,17 +1,19 @@
 package com.org.entity;
 
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
+import org.springframework.data.jpa.domain.support.AuditingEntityListener;
+import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
+import java.io.Serializable;
 import java.util.Date;
 
-@Getter
-@Setter
+@Data
 @Entity(name = "seller_details_table")
-public class SellerRegistrationEntity {
+@EntityListeners(AuditingEntityListener.class)
+public class SellerRegistrationEntity implements Serializable {
     @Id
     @Column(nullable = false)
     private String sellerId;
