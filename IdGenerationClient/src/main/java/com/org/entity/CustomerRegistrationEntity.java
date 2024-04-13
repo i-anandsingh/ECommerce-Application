@@ -25,4 +25,22 @@ public class CustomerRegistrationEntity implements Serializable {
 
     @Column(nullable = false)
     private String dob;
+
+    @Column(nullable = false)
+    private Long phoneNumber;
+
+    @Column(nullable = false)
+    private String email;
+
+    @Column(nullable = false)
+    private String address;
+
+    @Column(nullable = false)
+    private int pincode;
+
+    @Column(nullable = false)
+    private String state;
+
+    @Column(nullable = false)
+    private String city;
 }
