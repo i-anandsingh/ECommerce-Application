@@ -6,4 +6,5 @@ import org.springframework.stereotype.Component;
 @Component
 public interface RegistrationIdFetcher {
     Boolean matchSellerId (String sellerId);
+    Boolean matchCustomerId (String customerId);
 }

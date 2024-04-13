@@ -31,7 +31,11 @@ public class IdGenerator {
 
     public String customerIdGenerator(){
         int id = 10000 + random.nextInt(99999);
-        return 'c' + Integer.toString(id);
+        String customerId = 'c' + Integer.toString(id);
+        if(registrationIdFetcher.matchCustomerId(customerId)){
+            customerIdGenerator();
+        }
+        return customerId;
     }
 
     public String productIdGenerator(){

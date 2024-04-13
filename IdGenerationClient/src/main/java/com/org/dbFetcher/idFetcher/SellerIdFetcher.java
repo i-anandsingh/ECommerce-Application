@@ -8,5 +8,5 @@ import java.util.List;
 
 @Repository
 public interface SellerIdFetcher extends JpaRepository<SellerRegistrationEntity, Integer> {
-    List<SellerRegistrationEntity> findAll();
+//    List<SellerRegistrationEntity> findAll();
 }
