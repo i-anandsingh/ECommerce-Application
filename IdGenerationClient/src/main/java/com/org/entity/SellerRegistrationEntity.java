@@ -40,6 +40,9 @@ public class SellerRegistrationEntity implements Serializable {
     private Long phoneNumber;
 
     @Column(nullable = false)
+    private String password;
+
+    @Column(nullable = false)
     @Temporal(TemporalType.TIMESTAMP)
     @CreatedDate
     private Date createdAt;
